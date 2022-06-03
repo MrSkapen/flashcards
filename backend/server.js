@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
 
-const MONGO_URI = "mongodb+srv://user01:Haslo123@cluster0.y4l5z.mongodb.net/my-page?retryWrites=true&w=majority";
+const MONGO_URI = "#";
 const db = require("./models");
 const Role = db.role;
 db.mongoose
